@@ -8,10 +8,10 @@ environment:
 dependencies:
   grpc:
     path: ../../
-  protobuf: ^3.0.0
-  web: ^1.1.0
+  protobuf: ^3.1.0
+  web: ">=1.1.0 <2.0.0"
 
 dev_dependencies:
-  build_runner: ^2.4.13
-  build_web_compilers: ^4.0.11
-  lints: ^5.0.0
+  build_runner: ^2.4.15
+  build_web_compilers: ^4.1.1
+  lints: ^5.1.1
